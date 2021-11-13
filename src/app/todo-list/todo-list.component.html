@@ -1,0 +1,14 @@
+<h2>
+    Todo List
+</h2>
+
+<div class="block">
+    <ul>
+        <li *ngFor="let item of todoin.todolist">
+            <div class="item">
+                {{item.Task}}
+            </div>
+            <button class="remove" (click)="removeTask(item)">Remove Task</button>
+        </li>
+    </ul>
+</div>

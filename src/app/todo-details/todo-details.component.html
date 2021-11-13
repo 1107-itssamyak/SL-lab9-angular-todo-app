@@ -1,0 +1,15 @@
+<h2>
+    Todo Table
+</h2>
+
+<table class="block">
+    <thead>
+        <td>Task No.</td>
+        <td>Task</td>
+    </thead>
+
+    <tbody *ngFor="let item of todolist">
+        <td>{{item.sno}}</td>
+        <td>{{item.Task}}</td>
+    </tbody>
+</table>
